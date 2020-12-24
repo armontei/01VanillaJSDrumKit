@@ -41,6 +41,7 @@ a:visited {
 a:hover {
     border-bottom: 2px solid black;
     transition: 0.1s;
+    letter-spacing: 1.5px;
 }
 
 ul {
