@@ -12,6 +12,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 html {
     background: conic-gradient(lightsteelblue 30%, lightgoldenrodyellow 0 70%,lightpink 0);
+    background-attachment: fixed;
     font-family: sans-serif;
 }
 
