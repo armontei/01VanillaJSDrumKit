@@ -46,10 +46,15 @@ a:hover {
 }
 
 ul {
-    list-style-image: url(./assets/610873796668162049.png);
     margin-left: 50px;
 }
 
 li {
+    list-style-image: url(./assets/610873796668162049.png);
     margin: 15px 0;
+}
+
+li:nth-of-type(5),
+li:nth-of-type(8) {
+    list-style-image: url(./assets/2524_chefkiss.png);
 }
