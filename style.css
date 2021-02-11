@@ -50,6 +50,12 @@ ul {
     column-count: 2;
 }
 
+@media (max-width: 780px) {
+    ul {
+        column-count: 1;
+    }
+}
+
 li {
     list-style-image: url(./assets/610873796668162049.png);
     margin: 15px 0;
@@ -58,6 +64,7 @@ li {
 li:nth-of-type(3),
 li:nth-of-type(5),
 li:nth-of-type(8),
-li:nth-of-type(22) {
-    filter: hue-rotate(90deg);
+li:nth-of-type(22),
+li:nth-of-type(30) {
+    filter: hue-rotate(180deg);
 }
